@@ -5,7 +5,7 @@ class Anagram
     main_word = word
     letters = word.split()
     letters.sort!
-    matching_words = []
+    matching_words = ["a word"]
   end
 
   def match(words)
