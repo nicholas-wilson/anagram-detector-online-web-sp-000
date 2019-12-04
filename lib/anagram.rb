@@ -4,8 +4,8 @@ class Anagram
   def initialize(word)
     @main_word = word
     @letters = word.split()
-    @letters.sort!
-    puts "#{@main_word}"
+    #@letters.sort!
+    puts "#{@main_word}, and then #{@letters}"
     @matching_words = []
   end
 
