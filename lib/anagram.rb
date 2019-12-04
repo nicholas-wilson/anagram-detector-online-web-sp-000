@@ -14,6 +14,7 @@ class Anagram
       current_letters = word.split()
       current_letters.sort!
       if current_letters == @letters
+        puts "Current: #{current_letters} , letters: #{@letters}"
         @matching_words << word
       end
     end
