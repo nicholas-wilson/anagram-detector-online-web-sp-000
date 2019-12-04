@@ -12,7 +12,7 @@ class Anagram
     @words = words
     current_letters = []
     @words.each do |word|
-
+      puts "#{matching_words} and then #{@matching_words}"
     end
   end
 end
