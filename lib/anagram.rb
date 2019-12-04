@@ -9,6 +9,8 @@ class Anagram
 
   def match(words)
     @words = words.split(" ")
+    current_letters = []
+    @words.each do |word|
 
   end
 end
