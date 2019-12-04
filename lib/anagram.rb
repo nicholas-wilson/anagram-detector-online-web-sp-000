@@ -9,7 +9,6 @@ class Anagram
   end
 
   def match(words)
-    current_letters = []
     words.each do |word|
       current_letters = word.split()
       current_letters.sort!
