@@ -5,7 +5,7 @@ class Anagram
     @main_word = word
     @letters = word.split()
     @letters.sort!
-    puts "#{@letters}"
+    puts "#{@main_word}"
     @matching_words = []
   end
 
