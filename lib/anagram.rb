@@ -9,7 +9,7 @@ class Anagram
   end
 
   def match(words)
-    @words = words.split(" ")
+    @words = words
     current_letters = []
     @words.each do |word|
 
